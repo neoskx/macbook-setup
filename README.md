@@ -39,6 +39,33 @@ Unleash your terminal like never before
 
 `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
 
+#### Theme
+Recommend to use [Starship]()
+
+**Install**
+
+`brew install starship`
+
+Add to `.zshrc`: 
+
+`echo 'eval "$(starship init zsh)"' >> ~/.zshrc`
+
+Use [Nerd Font Symbols Preset](https://starship.rs/presets/nerd-font):
+
+`starship preset nerd-font-symbols -o ~/.config/starship.toml`
+
+> Select **Hack Nerd Font**
+> 
+> iTerm
+> 
+> <img width="1011" alt="image" src="https://github.com/neoskx/macbook-setup/assets/870358/659d7958-aff2-486c-894c-ad8f1304398d">
+
+> Terminal
+> 
+> <img width="779" alt="image" src="https://github.com/neoskx/macbook-setup/assets/870358/ff131ef2-6015-44c4-8557-bb86ebdd0b04">
+
+
+
 #### Plugins
 Oh My Zsh comes bundled with [plugins](https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins)
 
