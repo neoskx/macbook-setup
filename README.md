@@ -30,10 +30,23 @@ Enable following plugins
 * **git**
 * **[zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)**
   `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
+
 * **[zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)**
   `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
+
 * **[zsh-completions](https://github.com/zsh-users/zsh-completions)**
   `git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-completions`
+* **[colored-man-pages](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/colored-man-pages)**
+ 
+```
+plugins=(
+  git
+  colored-man-pages
+  zsh-autosuggestions
+  zsh-syntax-highlighting
+  zsh-completions
+)
+```
 
 ### [Howebrew](https://brew.sh/)
 The Missing Package Manager for macOS (or Linux)
