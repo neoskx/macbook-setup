@@ -17,8 +17,14 @@ Set system preferences by the terminal
 
 After running those commands, run `killall Finder`
 
-## Tools
+## Terminal Tools
+
+### [oh my zsh](https://ohmyz.sh/)
+Unleash your terminal like never before
+**Install**
+`sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+
 ### [Howebrew](https://brew.sh/)
 The Missing Package Manager for macOS (or Linux)
-**Install Homebrew**
+**Install**
 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
