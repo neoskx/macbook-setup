@@ -101,4 +101,11 @@ Node Version Manager
 ### [yarn](https://yarnpkg.com)
 Yarn is a package manager that doubles down as project manager.
 
-## Gui Applications
+## Applications
+### [iTerm2](https://iterm2.com/)
+iTerm2 is a replacement for Terminal and the successor to iTerm. 
+### [Visual Studio Code](https://code.visualstudio.com/)
+Code editing. Redefined. Free. Built on open source. Runs everywhere.
+### [Docker](https://www.docker.com/products/docker-desktop/)
+Accelerate how you build, share, and run applications
+
