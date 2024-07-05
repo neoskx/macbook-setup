@@ -27,13 +27,13 @@ Unleash your terminal like never before
 Oh My Zsh comes bundled with [plugins](https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins)
 
 Enable following plugins
-**git**
-**[zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)**
-`git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
-**[zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)**
-`git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
-**[zsh-completions](https://github.com/zsh-users/zsh-completions)**
-`git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-completions`
+* **git**
+* **[zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)**
+  `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
+* **[zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)**
+  `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
+* **[zsh-completions](https://github.com/zsh-users/zsh-completions)**
+  `git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-completions`
 
 ### [Howebrew](https://brew.sh/)
 The Missing Package Manager for macOS (or Linux)
