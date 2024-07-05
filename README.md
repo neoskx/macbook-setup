@@ -19,6 +19,19 @@ After running those commands, run `killall Finder`
 
 ## Terminal Applications
 
+### [Howebrew](https://brew.sh/)
+The Missing Package Manager for macOS (or Linux)
+
+**Install**
+
+`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+
+### [nerd-fonts](https://github.com/ryanoasis/nerd-fonts)
+
+**Install**
+
+`brew install font-hack-nerd-font`
+
 ### [oh my zsh](https://ohmyz.sh/)
 Unleash your terminal like never before
 
@@ -50,13 +63,6 @@ plugins=(
   zsh-completions
 )
 ```
-
-### [Howebrew](https://brew.sh/)
-The Missing Package Manager for macOS (or Linux)
-
-**Install**
-
-`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
 ### [nvm](https://github.com/nvm-sh/nvm)
 Node Version Manager
