@@ -17,12 +17,15 @@ Set system preferences by the terminal
 
 After running those commands, run `killall Finder`
 
-## Terminal Tools
+## Terminal Applications
 
 ### [oh my zsh](https://ohmyz.sh/)
 Unleash your terminal like never before
+
 **Install**
+
 `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+
 #### Plugins
 Oh My Zsh comes bundled with [plugins](https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins)
 
@@ -50,5 +53,19 @@ plugins=(
 
 ### [Howebrew](https://brew.sh/)
 The Missing Package Manager for macOS (or Linux)
+
 **Install**
+
 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+
+### [nvm](https://github.com/nvm-sh/nvm)
+Node Version Manager
+
+**Install**
+
+`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash`
+
+### [yarn](https://yarnpkg.com)
+Yarn is a package manager that doubles down as project manager.
+
+## Gui Applications
