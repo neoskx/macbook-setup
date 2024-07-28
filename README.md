@@ -90,13 +90,6 @@ plugins=(
 )
 ```
 
-**Install**
-
-`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash`
-
-### [yarn](https://yarnpkg.com)
-Yarn is a package manager that doubles down as project manager.
-
 ## Applications
 ### [iTerm2](https://iterm2.com/)
 iTerm2 is a replacement for Terminal and the successor to iTerm. 
@@ -110,8 +103,24 @@ Accelerate how you build, share, and run applications
 #### [nvm](https://github.com/nvm-sh/nvm)
 Node Version Manager
 
+**Install**
+
+`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash`
+
+#### [yarn](https://yarnpkg.com)
+Yarn is a package manager that doubles down as project manager.
+
 ### Python
 #### [pyenv](https://github.com/pyenv/pyenv)
 Simple Python version management
 
+**Install**
+
+`brew install pyenv`
+
+```shell
+echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
+echo '[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
+echo 'eval "$(pyenv init -)"' >> ~/.zshrc
+```
 
