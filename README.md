@@ -65,7 +65,6 @@ Use [Nerd Font Symbols Preset](https://starship.rs/presets/nerd-font):
 > <img width="779" alt="image" src="https://github.com/neoskx/macbook-setup/assets/870358/ff131ef2-6015-44c4-8557-bb86ebdd0b04">
 
 
-
 #### Plugins
 Oh My Zsh comes bundled with [plugins](https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins)
 
@@ -91,9 +90,6 @@ plugins=(
 )
 ```
 
-### [nvm](https://github.com/nvm-sh/nvm)
-Node Version Manager
-
 **Install**
 
 `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash`
@@ -108,4 +104,14 @@ iTerm2 is a replacement for Terminal and the successor to iTerm.
 Code editing. Redefined. Free. Built on open source. Runs everywhere.
 ### [Docker](https://www.docker.com/products/docker-desktop/)
 Accelerate how you build, share, and run applications
+
+## Development Environment 
+### NodeJS
+#### [nvm](https://github.com/nvm-sh/nvm)
+Node Version Manager
+
+### Python
+#### [pyenv](https://github.com/pyenv/pyenv)
+Simple Python version management
+
 
