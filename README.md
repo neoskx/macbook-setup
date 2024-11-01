@@ -108,7 +108,7 @@ Node Version Manager
 `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash`
 
 #### [yarn](https://yarnpkg.com)
-Yarn is a package manager that doubles down as project manager.
+Yarn is a package manager that doubles down as a project manager.
 
 ### Python
 #### [pyenv](https://github.com/pyenv/pyenv)
@@ -123,4 +123,8 @@ echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
 echo '[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
 echo 'eval "$(pyenv init -)"' >> ~/.zshrc
 ```
+
+### ASP.NET
+#### [.NET SDK](https://dotnet.microsoft.com/download)
+`brew install --cask dotnet-sdk`
 
