@@ -26,6 +26,16 @@ The Missing Package Manager for macOS (or Linux)
 
 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
+### [mkcert](https://github.com/FiloSottile/mkcert)
+A simple zero-config tool to make locally trusted development certificates with any names you'd like.
+
+**Install**
+
+```
+brew install mkcert
+brew install nss # if you use Firefox
+```
+
 ### [nerd-fonts](https://github.com/ryanoasis/nerd-fonts)
 
 **Install**
